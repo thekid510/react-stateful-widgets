@@ -66,6 +66,7 @@ export default function Input() {
       <div>
         <input id='input' type='text' onChange={changeInput}/>  
         <button id='resetInput' onClick={reset}>Reset</button>
+        
       </div>
     </div>
   );
